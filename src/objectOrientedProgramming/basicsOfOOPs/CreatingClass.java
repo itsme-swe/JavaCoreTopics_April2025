@@ -23,8 +23,9 @@ public class CreatingClass {
         c1.radius = 5;
 
         System.out.println(c1.area());
+        System.out.println(c1.perimeter());
 
-        System.out.println(c1.area());
+
 
     }
 }
