@@ -31,4 +31,6 @@ public class MethodOverriding {
 
 /*
 * Method overriding is always achieved using inheritance, but method overloading is achieved within the same class. A subclass can also define an overloaded version of a method, but this is not overriding.
+*
+* A Method overriding enables Runtime Polymorphism because method resolution occurs at runtime based on the actual object type, not the reference type.
 * */
