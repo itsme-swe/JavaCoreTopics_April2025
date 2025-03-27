@@ -22,13 +22,10 @@ public class DynamicMethodDispatch {
 
         Parent p1 = new Child();
 
-        p1.display();
+        p1.display();   // output: Child class method
 
         /*
-        * output: Child class method
-        *
-        * Dynamic Method Dispatch (also known as Runtime Polymorphism) in Java occurs when a parent class reference is used to refer to a child class object, and method overriding enables the method in the child class to be executed at runtime.
-        *
-        * */
+        * Dynamic Method Dispatch (also known as Runtime Polymorphism) in Java occurs when a parent class reference is used to refer to a child class object, and method overriding enables the method in the child class to be executed at runtime
+        */
     }
 }
