@@ -54,6 +54,19 @@ public class InterfaceDemo2 {
 
     public static void main(String[] args) {
 
+        Phone p1 = new SmartPhone();    // Here ref. Of Phone class and object of Smartphone class
+
+        p1.call();
+        p1.sms();
+
+        SmartPhone sp1 = new SmartPhone();
+
+        sp1.videoCall();
+        sp1.click();
+        sp1.play();
+
+
+
 
     }
 }
